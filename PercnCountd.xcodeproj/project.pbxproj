@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D115648F2E6E73B40097E22D /* PercnCountd Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D115648E2E6E73B40097E22D /* PercnCountd Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D11564902E6E73B40097E22D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D11564822E6E73B40097E22D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D115648D2E6E73B40097E22D;
+			remoteInfo = "PercnCountd Watch App";
+		};
+		D115649E2E6E73B50097E22D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D11564822E6E73B40097E22D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D115648D2E6E73B40097E22D;
+			remoteInfo = "PercnCountd Watch App";
+		};
+		D11564A82E6E73B50097E22D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D11564822E6E73B40097E22D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D115648D2E6E73B40097E22D;
+			remoteInfo = "PercnCountd Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D11564B42E6E73B50097E22D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D115648F2E6E73B40097E22D /* PercnCountd Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D11564882E6E73B40097E22D /* PercnCountd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PercnCountd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D115648E2E6E73B40097E22D /* PercnCountd Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PercnCountd Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D115649D2E6E73B50097E22D /* PercnCountd Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PercnCountd Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11564A72E6E73B50097E22D /* PercnCountd Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PercnCountd Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D11564922E6E73B40097E22D /* PercnCountd Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PercnCountd Watch App";
+			sourceTree = "<group>";
+		};
+		D11564A02E6E73B50097E22D /* PercnCountd Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PercnCountd Watch AppTests";
+			sourceTree = "<group>";
+		};
+		D11564AA2E6E73B50097E22D /* PercnCountd Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PercnCountd Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D115648B2E6E73B40097E22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D115649A2E6E73B50097E22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11564A42E6E73B50097E22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D11564812E6E73B40097E22D = {
+			isa = PBXGroup;
+			children = (
+				D11564922E6E73B40097E22D /* PercnCountd Watch App */,
+				D11564A02E6E73B50097E22D /* PercnCountd Watch AppTests */,
+				D11564AA2E6E73B50097E22D /* PercnCountd Watch AppUITests */,
+				D11564892E6E73B40097E22D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D11564892E6E73B40097E22D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D11564882E6E73B40097E22D /* PercnCountd.app */,
+				D115648E2E6E73B40097E22D /* PercnCountd Watch App.app */,
+				D115649D2E6E73B50097E22D /* PercnCountd Watch AppTests.xctest */,
+				D11564A72E6E73B50097E22D /* PercnCountd Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D11564872E6E73B40097E22D /* PercnCountd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D11564B52E6E73B50097E22D /* Build configuration list for PBXNativeTarget "PercnCountd" */;
+			buildPhases = (
+				D11564862E6E73B40097E22D /* Resources */,
+				D11564B42E6E73B50097E22D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D11564912E6E73B40097E22D /* PBXTargetDependency */,
+			);
+			name = PercnCountd;
+			packageProductDependencies = (
+			);
+			productName = PercnCountd;
+			productReference = D11564882E6E73B40097E22D /* PercnCountd.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D115648D2E6E73B40097E22D /* PercnCountd Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D11564B12E6E73B50097E22D /* Build configuration list for PBXNativeTarget "PercnCountd Watch App" */;
+			buildPhases = (
+				D115648A2E6E73B40097E22D /* Sources */,
+				D115648B2E6E73B40097E22D /* Frameworks */,
+				D115648C2E6E73B40097E22D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D11564922E6E73B40097E22D /* PercnCountd Watch App */,
+			);
+			name = "PercnCountd Watch App";
+			packageProductDependencies = (
+			);
+			productName = "PercnCountd Watch App";
+			productReference = D115648E2E6E73B40097E22D /* PercnCountd Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D115649C2E6E73B50097E22D /* PercnCountd Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D11564B82E6E73B50097E22D /* Build configuration list for PBXNativeTarget "PercnCountd Watch AppTests" */;
+			buildPhases = (
+				D11564992E6E73B50097E22D /* Sources */,
+				D115649A2E6E73B50097E22D /* Frameworks */,
+				D115649B2E6E73B50097E22D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D115649F2E6E73B50097E22D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D11564A02E6E73B50097E22D /* PercnCountd Watch AppTests */,
+			);
+			name = "PercnCountd Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "PercnCountd Watch AppTests";
+			productReference = D115649D2E6E73B50097E22D /* PercnCountd Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D11564A62E6E73B50097E22D /* PercnCountd Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D11564BB2E6E73B50097E22D /* Build configuration list for PBXNativeTarget "PercnCountd Watch AppUITests" */;
+			buildPhases = (
+				D11564A32E6E73B50097E22D /* Sources */,
+				D11564A42E6E73B50097E22D /* Frameworks */,
+				D11564A52E6E73B50097E22D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D11564A92E6E73B50097E22D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D11564AA2E6E73B50097E22D /* PercnCountd Watch AppUITests */,
+			);
+			name = "PercnCountd Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "PercnCountd Watch AppUITests";
+			productReference = D11564A72E6E73B50097E22D /* PercnCountd Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D11564822E6E73B40097E22D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					D11564872E6E73B40097E22D = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					D115648D2E6E73B40097E22D = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					D115649C2E6E73B50097E22D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D115648D2E6E73B40097E22D;
+					};
+					D11564A62E6E73B50097E22D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D115648D2E6E73B40097E22D;
+					};
+				};
+			};
+			buildConfigurationList = D11564852E6E73B40097E22D /* Build configuration list for PBXProject "PercnCountd" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D11564812E6E73B40097E22D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D11564892E6E73B40097E22D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D11564872E6E73B40097E22D /* PercnCountd */,
+				D115648D2E6E73B40097E22D /* PercnCountd Watch App */,
+				D115649C2E6E73B50097E22D /* PercnCountd Watch AppTests */,
+				D11564A62E6E73B50097E22D /* PercnCountd Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D11564862E6E73B40097E22D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D115648C2E6E73B40097E22D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D115649B2E6E73B50097E22D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11564A52E6E73B50097E22D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D115648A2E6E73B40097E22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11564992E6E73B50097E22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11564A32E6E73B50097E22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D11564912E6E73B40097E22D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D115648D2E6E73B40097E22D /* PercnCountd Watch App */;
+			targetProxy = D11564902E6E73B40097E22D /* PBXContainerItemProxy */;
+		};
+		D115649F2E6E73B50097E22D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D115648D2E6E73B40097E22D /* PercnCountd Watch App */;
+			targetProxy = D115649E2E6E73B50097E22D /* PBXContainerItemProxy */;
+		};
+		D11564A92E6E73B50097E22D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D115648D2E6E73B40097E22D /* PercnCountd Watch App */;
+			targetProxy = D11564A82E6E73B50097E22D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D11564AF2E6E73B50097E22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D11564B02E6E73B50097E22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D11564B22E6E73B50097E22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PercnCountd;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tuxman.PercnCountd.PercnCountd.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		D11564B32E6E73B50097E22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PercnCountd;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tuxman.PercnCountd.PercnCountd.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		D11564B62E6E73B50097E22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = PercnCountd;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tuxman.PercnCountd.PercnCountd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D11564B72E6E73B50097E22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = PercnCountd;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tuxman.PercnCountd.PercnCountd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D11564B92E6E73B50097E22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.tuxman.PercnCountd.PercnCountd-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PercnCountd Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PercnCountd Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		D11564BA2E6E73B50097E22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.tuxman.PercnCountd.PercnCountd-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PercnCountd Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PercnCountd Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		D11564BC2E6E73B50097E22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.tuxman.PercnCountd.PercnCountd-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PercnCountd Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		D11564BD2E6E73B50097E22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.tuxman.PercnCountd.PercnCountd-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PercnCountd Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D11564852E6E73B40097E22D /* Build configuration list for PBXProject "PercnCountd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11564AF2E6E73B50097E22D /* Debug */,
+				D11564B02E6E73B50097E22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D11564B12E6E73B50097E22D /* Build configuration list for PBXNativeTarget "PercnCountd Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11564B22E6E73B50097E22D /* Debug */,
+				D11564B32E6E73B50097E22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D11564B52E6E73B50097E22D /* Build configuration list for PBXNativeTarget "PercnCountd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11564B62E6E73B50097E22D /* Debug */,
+				D11564B72E6E73B50097E22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D11564B82E6E73B50097E22D /* Build configuration list for PBXNativeTarget "PercnCountd Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11564B92E6E73B50097E22D /* Debug */,
+				D11564BA2E6E73B50097E22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D11564BB2E6E73B50097E22D /* Build configuration list for PBXNativeTarget "PercnCountd Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11564BC2E6E73B50097E22D /* Debug */,
+				D11564BD2E6E73B50097E22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D11564822E6E73B40097E22D /* Project object */;
+}
