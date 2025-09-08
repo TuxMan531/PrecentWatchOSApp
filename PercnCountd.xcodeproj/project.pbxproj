@@ -7,25 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D115648F2E6E73B40097E22D /* PercnCountd Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D115648E2E6E73B40097E22D /* PercnCountd Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D1967F0D2E6F9CA900C3DACF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D1967F0B2E6F9CA400C3DACF /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D11564902E6E73B40097E22D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D11564822E6E73B40097E22D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D115648D2E6E73B40097E22D;
-			remoteInfo = "PercnCountd Watch App";
-		};
 		D115649E2E6E73B50097E22D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D11564822E6E73B40097E22D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D115648D2E6E73B40097E22D;
-			remoteInfo = "PercnCountd Watch App";
-		};
-		D11564A82E6E73B50097E22D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D11564822E6E73B40097E22D /* Project object */;
 			proxyType = 1;
@@ -34,25 +20,10 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		D11564B42E6E73B50097E22D /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				D115648F2E6E73B40097E22D /* PercnCountd Watch App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		D11564882E6E73B40097E22D /* PercnCountd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PercnCountd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D115648E2E6E73B40097E22D /* PercnCountd Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PercnCountd Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D115649D2E6E73B50097E22D /* PercnCountd Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PercnCountd Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D11564A72E6E73B50097E22D /* PercnCountd Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PercnCountd Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1967F0B2E6F9CA400C3DACF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -88,13 +59,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D11564A42E6E73B50097E22D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -105,16 +69,15 @@
 				D11564A02E6E73B50097E22D /* PercnCountd Watch AppTests */,
 				D11564AA2E6E73B50097E22D /* PercnCountd Watch AppUITests */,
 				D11564892E6E73B40097E22D /* Products */,
+				D1967F0B2E6F9CA400C3DACF /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
 		D11564892E6E73B40097E22D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D11564882E6E73B40097E22D /* PercnCountd.app */,
 				D115648E2E6E73B40097E22D /* PercnCountd Watch App.app */,
 				D115649D2E6E73B50097E22D /* PercnCountd Watch AppTests.xctest */,
-				D11564A72E6E73B50097E22D /* PercnCountd Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,25 +85,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D11564872E6E73B40097E22D /* PercnCountd */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D11564B52E6E73B50097E22D /* Build configuration list for PBXNativeTarget "PercnCountd" */;
-			buildPhases = (
-				D11564862E6E73B40097E22D /* Resources */,
-				D11564B42E6E73B50097E22D /* Embed Watch Content */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D11564912E6E73B40097E22D /* PBXTargetDependency */,
-			);
-			name = PercnCountd;
-			packageProductDependencies = (
-			);
-			productName = PercnCountd;
-			productReference = D11564882E6E73B40097E22D /* PercnCountd.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
-		};
 		D115648D2E6E73B40097E22D /* PercnCountd Watch App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D11564B12E6E73B50097E22D /* Build configuration list for PBXNativeTarget "PercnCountd Watch App" */;
@@ -186,29 +130,6 @@
 			productReference = D115649D2E6E73B50097E22D /* PercnCountd Watch AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D11564A62E6E73B50097E22D /* PercnCountd Watch AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D11564BB2E6E73B50097E22D /* Build configuration list for PBXNativeTarget "PercnCountd Watch AppUITests" */;
-			buildPhases = (
-				D11564A32E6E73B50097E22D /* Sources */,
-				D11564A42E6E73B50097E22D /* Frameworks */,
-				D11564A52E6E73B50097E22D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D11564A92E6E73B50097E22D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D11564AA2E6E73B50097E22D /* PercnCountd Watch AppUITests */,
-			);
-			name = "PercnCountd Watch AppUITests";
-			packageProductDependencies = (
-			);
-			productName = "PercnCountd Watch AppUITests";
-			productReference = D11564A72E6E73B50097E22D /* PercnCountd Watch AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,17 +140,10 @@
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					D11564872E6E73B40097E22D = {
-						CreatedOnToolsVersion = 16.4;
-					};
 					D115648D2E6E73B40097E22D = {
 						CreatedOnToolsVersion = 16.4;
 					};
 					D115649C2E6E73B50097E22D = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = D115648D2E6E73B40097E22D;
-					};
-					D11564A62E6E73B50097E22D = {
 						CreatedOnToolsVersion = 16.4;
 						TestTargetID = D115648D2E6E73B40097E22D;
 					};
@@ -249,37 +163,22 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D11564872E6E73B40097E22D /* PercnCountd */,
 				D115648D2E6E73B40097E22D /* PercnCountd Watch App */,
 				D115649C2E6E73B50097E22D /* PercnCountd Watch AppTests */,
-				D11564A62E6E73B50097E22D /* PercnCountd Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D11564862E6E73B40097E22D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D115648C2E6E73B40097E22D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1967F0D2E6F9CA900C3DACF /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D115649B2E6E73B50097E22D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D11564A52E6E73B50097E22D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,30 +202,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D11564A32E6E73B50097E22D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D11564912E6E73B40097E22D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D115648D2E6E73B40097E22D /* PercnCountd Watch App */;
-			targetProxy = D11564902E6E73B40097E22D /* PBXContainerItemProxy */;
-		};
 		D115649F2E6E73B50097E22D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D115648D2E6E73B40097E22D /* PercnCountd Watch App */;
 			targetProxy = D115649E2E6E73B50097E22D /* PBXContainerItemProxy */;
-		};
-		D11564A92E6E73B50097E22D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D115648D2E6E73B40097E22D /* PercnCountd Watch App */;
-			targetProxy = D11564A82E6E73B50097E22D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -448,11 +330,14 @@
 		D11564B22E6E73B50097E22D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P8YP3QTXX;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = PercnCountd;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -469,18 +354,21 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+				WATCHOS_DEPLOYMENT_TARGET = 26;
 			};
 			name = Debug;
 		};
 		D11564B32E6E73B50097E22D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P8YP3QTXX;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = PercnCountd;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -498,36 +386,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 11.5;
-			};
-			name = Release;
-		};
-		D11564B62E6E73B50097E22D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_KEY_CFBundleDisplayName = PercnCountd;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tuxman.PercnCountd.PercnCountd;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		D11564B72E6E73B50097E22D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_KEY_CFBundleDisplayName = PercnCountd;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tuxman.PercnCountd.PercnCountd;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26;
 			};
 			name = Release;
 		};
@@ -570,43 +429,6 @@
 			};
 			name = Release;
 		};
-		D11564BC2E6E73B50097E22D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.tuxman.PercnCountd.PercnCountd-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "PercnCountd Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 11.5;
-			};
-			name = Debug;
-		};
-		D11564BD2E6E73B50097E22D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.tuxman.PercnCountd.PercnCountd-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "PercnCountd Watch App";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 11.5;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -628,29 +450,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D11564B52E6E73B50097E22D /* Build configuration list for PBXNativeTarget "PercnCountd" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D11564B62E6E73B50097E22D /* Debug */,
-				D11564B72E6E73B50097E22D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D11564B82E6E73B50097E22D /* Build configuration list for PBXNativeTarget "PercnCountd Watch AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D11564B92E6E73B50097E22D /* Debug */,
 				D11564BA2E6E73B50097E22D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D11564BB2E6E73B50097E22D /* Build configuration list for PBXNativeTarget "PercnCountd Watch AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D11564BC2E6E73B50097E22D /* Debug */,
-				D11564BD2E6E73B50097E22D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

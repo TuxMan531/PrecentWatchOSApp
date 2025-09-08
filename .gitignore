@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xcscmblueprint
+*.xccheckout
+
+# User-specific Xcode data
+*.xcuserstate
+*.xcuserdatad*
+xcuserdata/
+
+# SwiftPM
+/.build
+/Packages
+Package.resolved
+
+# CocoaPods (if you ever use it)
+Pods/
+*.xcworkspace/xcuserdata/
+
+# Carthage (if used)
+/Carthage
+
+# Fastlane (if used)
+/fastlane/report.xml
+/fastlane/Preview.html
+/fastlane/screenshots
