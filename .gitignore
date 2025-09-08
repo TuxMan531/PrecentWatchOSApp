@@ -7,6 +7,10 @@ build/
 *.xcscmblueprint
 *.xccheckout
 
+/PercnCountd\ Watch\ AppTests/
+/PercnCountd\ Watch\ AppUITests/
+
+
 # User-specific Xcode data
 *.xcuserstate
 *.xcuserdatad*

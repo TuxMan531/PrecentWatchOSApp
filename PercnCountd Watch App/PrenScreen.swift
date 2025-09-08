@@ -17,8 +17,8 @@ struct PercentScreen: View {
             .font(.title2)
             .monospacedDigit()
             .padding()
-            .onReceive(Timer.publish(every: 0.016667, on: .main, in: .common).autoconnect()) { now = $0 }
+            .onReceive(Timer.publish(every: 1/60, on: .main, in: .common).autoconnect()) { now = $0 }
         
-        // 0.016667 is 60fps
+        // 60fps is 0.016667s hello to my good friend droc101
     }
 }
