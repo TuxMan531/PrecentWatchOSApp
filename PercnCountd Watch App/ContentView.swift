@@ -38,14 +38,15 @@ struct ContentView: View {
             .safeAreaInset(edge: .bottom) {
                 Button("Start") {
                     let pct = Logic.percent(start: start, end: end)
-                    print("Progress: \(pct)%")
+                    print("Button started - \(pct)")
                     WKInterfaceDevice.current().play(.click)
                     showPercent = true
                 }
                 .tint(.green)
                 .padding(.horizontal)
                 .padding(.bottom, -35) // space from bottom safe area
-                .ignoresSafeArea(.container, edges: .bottom).sheet(isPresented: $showPercent) {
+                .ignoresSafeArea(.container, edges: .bottom)
+                .sheet(isPresented: $showPercent) {
                 PercentScreen(start: start, end: end)
                     }
                 }
