@@ -13,11 +13,11 @@ struct PercentScreen: View {
     @State private var now = Date()
 
     var body: some View {
-        Text(String(format: "%.6f%%", Logic.percent(start: start, end: end, now: now)))
+        Text(String(format: "%.5f%%", Logic.percent(start: start, end: end, now: now)))
             .font(.title2)
             .monospacedDigit()
             .padding()
-            .onReceive(Timer.publish(every: 1/60, on: .main, in: .common).autoconnect()) { now = $0 }
+            .onReceive(Timer.publish(every: 1/30, on: .main, in: .common).autoconnect()) { now = $0 }
         
         // 60fps is 0.016667s hello to my good friend droc101
     }

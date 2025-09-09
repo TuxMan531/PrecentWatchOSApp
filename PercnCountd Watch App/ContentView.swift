@@ -32,12 +32,8 @@ struct ContentView: View {
                     }
                     .padding(.top, -40)
                     .padding(.bottom, 10)
-                    .zIndex(1)
             }
-            VStack {
-                Spacer()
-                    .frame(height: 1)
-            }
+
             // BOTTOM ACTIONS
             .safeAreaInset(edge: .bottom) {
                 Button("Start") {
