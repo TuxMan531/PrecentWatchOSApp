@@ -30,7 +30,7 @@ struct ContentView: View {
                         DatePicker("Start", selection: $start, displayedComponents: [.hourAndMinute])
                         DatePicker("End",   selection: $end, displayedComponents: [.hourAndMinute])
                     }
-                    .padding(.top, -40)
+                    .padding(.top, -45)
                     .padding(.bottom, 10)
             }
 
