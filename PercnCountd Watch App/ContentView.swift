@@ -1,59 +1,63 @@
-//
-//  ContentView.swift
-//  PercnCountd Watch App
-//
-//  Created by TuxMan on 9/7/25.
-//
-
 import SwiftUI
 import WatchKit
 
-
 struct ContentView: View {
-    @State private var showPercent = false
     @State private var start = Date()
     @State private var end   = Date()
-    @State private var path = NavigationPath()
-    
+    @State private var showPercent = false   // controls which view on page 1
+    @State private var tab = 0               // 0 = setup, 1 = result/wait
+
     var body: some View {
-        VStack(spacing: 0){
-            Text("Start & End Time")
-                .ignoresSafeArea(.container, edges: .top)
-                .padding(.horizontal)
-                .padding(.top, 0)
-                .frame(height: 0) // keep this I think
-        }
-        // SYSTEM-STYLE FORM
-        NavigationStack(path: $path) {
-            ZStack(alignment: .top) {
+        TabView(selection: $tab) {
+            // PAGE 0: setup
+            NavigationStack {
+                VStack(spacing: 0){
+                    Text("Start & End Time")
+                        .ignoresSafeArea(.container, edges: .top)
+                        .padding(.horizontal)
+                        .padding(.top, 0)
+                        .frame(height: 0) // keep this I think
+                }
+                
+                ZStack(alignment: .top) {
                     VStack(spacing: 0) {
                         DatePicker("Start", selection: $start, displayedComponents: [.hourAndMinute])
-                        DatePicker("End",   selection: $end, displayedComponents: [.hourAndMinute])
+                        DatePicker("End",   selection: $end,   displayedComponents: [.hourAndMinute])
                     }
-                    .padding(.top, -45)
+                    .padding(.top, 0)
                     .padding(.bottom, 10)
-            }
-
-            // BOTTOM ACTIONS
-            .safeAreaInset(edge: .bottom) {
-                Button("Start") {
-                    let pct = Logic.percent(start: start, end: end)
-                    print("Button started - \(pct)")
-                    WKInterfaceDevice.current().play(.click)
-                    showPercent = true
                 }
-                .tint(.green)
-                .padding(.horizontal)
-                .padding(.bottom, -35) // space from bottom safe area
-                .ignoresSafeArea(.container, edges: .bottom)
-                .sheet(isPresented: $showPercent) {
-                PercentScreen(start: start, end: end)
+                .safeAreaInset(edge: .bottom) {
+                    Button("Start") {
+                        _ = Logic.percent(start: start, end: end)
+                        WKInterfaceDevice.current().play(.click)
+                        showPercent = true          // choose content for page 1
+                        tab = 1                     // go to page 1
                     }
+                    .tint(.green)
+                    .padding(.horizontal)
+                    .padding(.bottom, -35)
+                    .ignoresSafeArea(.container, edges: .bottom)
                 }
             }
-        }
-    }
+            .tag(0)
 
-#Preview {
-    ContentView()
+            // PAGE 1: either wait or percent
+            ZStack {
+                if showPercent {
+                    PercentScreen(start: start, end: end)
+                        .transition(.opacity)
+                } else {
+                    WaitPrenScreen(start: start, end: end)
+                        .transition(.opacity)
+                }
+            }
+            .animation(.default, value: showPercent)
+            .id(showPercent)   // force rebuild
+            .tag(1)
+        }
+        .tabViewStyle(.page)
+        .indexViewStyle(.page(backgroundDisplayMode: .automatic))
+    }
 }
+
