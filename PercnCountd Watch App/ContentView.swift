@@ -1,5 +1,6 @@
 import SwiftUI
 import WatchKit
+var updateRate: Double = 1/30 // trust
 
 struct ContentView: View {
     @State private var start = Date()
